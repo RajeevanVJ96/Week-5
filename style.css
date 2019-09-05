@@ -1,0 +1,41 @@
+.box {
+    background-color: lightgrey;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
+
+h2{
+    border: 5px solid red;
+}
+
+.wow{
+    border: 5px solid orange;
+}
+
+{
+    width: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+    transition: ease-in;
+    animation-iteration-count: infinite;
+
+}
+
+p1{
+    width: 100px;
+    height: 100px;
+    background: red;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+    transition: width 2s, height 2s, transform 2s;
+}
+
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
+
+
